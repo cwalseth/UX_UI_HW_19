@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/keep-on-truckin-2');
+/* font-family: 'Keep on Truckin', sans-serif; */
+                                                
+body {
+    /* background-color: #fffde8 */
+    background: radial-gradient(circle, rgba(255,253,232,1) 9%, rgba(231,226,178,1) 89%);
+}
+.container {
+    height: 660px;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #C93C3C; */
+    background: linear-gradient(45deg, rgba(253,151,153,1) 9%, rgba(128,206,253,1) 41%, rgba(196,70,73,1) 84%);
+    width: 94%;
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: #80CEFD;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #9a2e2e;
+  }
+  .logo  {
+    width: 75px;
+    height: auto;
+    display: flex;
+  }
+  #name {
+    font-family: 'Keep on Truckin', sans-serif;
+    color: #496D84;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+.skills {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+#ui-ux {
+    color: #FD9799;
+    margin-right: 10px;
+}
+#web {
+    color: #80CEFD;
+    margin-right: 10px;
+}
+#fashion {
+    color: #C93C3C;
+}
+.apps {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+.projects {
+    position: absolute;
+    text-align: center;
+    left: 300px;
+    font-size: 14px;
+}
+.email {
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 400px;
+    font-size: 14px;
+}
+.resume  {
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 600px;
+    font-size: 14px;
+}
+.about {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    left: 1000px;
+    top: 50px;
+}
+.linkedin {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 250px;
+    left: 1100px;
+}
+.insta {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    top: 250px;
+    left: 1200px;
+}
+button {
+    position: absolute;
+    width: 110px;
+    background-color: #C93C3C;
+    color: #fffde8;
+    top: 510px;
+    left: 625px;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover {
+    /* background-color: #496D84; */
+    background: linear-gradient(45deg, rgba(253,151,153,1) 9%, rgba(128,206,253,1) 41%, rgba(73,109,128,1) 74%);
+}
+
+
+
+
+/* /////// my skills page starts here  */
+section.myskills {
+    height: 450px;
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #496D84;
+}
+div.figma {
+    width: 33%;
+    text-align: center;  
+    font-size: 12px; 
+}
+.figma img {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+div.uxui-design {
+    width: 33%;
+    text-align: center;
+    font-size: 12px;
+}
+.uxui-design img {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+div.ui-research {
+    width: 33%;
+    text-align: center;
+    font-size: 12px;
+}
+.ui-research img {
+    box-shadow: 5px 5px 5px rgb(124, 124, 124);
+}
+
+
+/* ////// projects starts here  */
+section.mywork {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #496D84;
+}
+.workgrid {
+    display: grid;
+    grid-template-columns: 30% 40%;
+    grid-template-rows: 210px 210px;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+.workgrid > div {
+    text-align: center;
+    padding: 20px 0;
+}
+button#filter-button {
+    position: absolute;
+    top: 170px;
+    margin-left: 235px;
+}
+button#artlet-button {
+    position: absolute;
+    top: 390px;
+    margin-left: 235px;
+}
+#filter-button:hover, #artlet-button:hover {
+    /* background-color: #496D84; */
+    background: linear-gradient(45deg, rgba(253,151,153,1) 9%, rgba(128,206,253,1) 41%, rgba(73,109,128,1) 74%);
+}
+#h3-work {
+    position: absolute;
+    margin-left: 1150px;
+    bottom: 1px;
+}
+#h3-work:hover {
+    color: #FD9799;
+}
+/* about me page ///////// */
+section.about-img {
+    width: 50%;
+    float: left;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+div.about-txt {
+    width: 50%;
+    float: right;
+    height: 450px;
+    color: #496D84;
+    font-family: 'Montserrat', sans-serif;
+}
+div.about-txt p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+#skills-list, #key-skills {
+    font-family: 'Montserrat', sans-serif;
+    color: #fffde8;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    background-color:#C93C3C;
+    border: solid 1px #80CEFD;
+    font-size: 14px;
+  }
+  #key-skills:hover {
+    background: linear-gradient(45deg, rgba(253,151,153,1) 9%, rgba(128,206,253,1) 41%, rgba(73,109,128,1) 74%);
+  }
+  #skills-list {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    width: 250px;
+  }
+
+/* ///////// footer below  */
+footer {
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    background: linear-gradient(45deg, rgba(253,151,153,1) 9%, rgba(128,206,253,1) 41%, rgba(196,70,73,1) 84%);
+    color: #C93C3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
+
+
+/* ///// media screen starts here  */
+
+@media only screen and (max-width: 600px) {
+    div.container {
+        height: 1000px;
+    }
+    ul {
+        width: 86%;
+        display: inline-block;
+    }
+    li {
+        font-size: 8px;
+    }
+    .logo {
+        width: 65px;
+    }
+    section.mywork {
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        color: #496D84;
+        /* background-color: red;
+        height: 450px;
+        display: grid;
+        grid-template-columns: 300px 300px; */
+        /* background-color: white; */
+        /* grid-area: ; */
+    }
+    .workgrid {
+        grid-template-rows: 170px 200px 180px;
+        grid-template-columns: 1fr;
+    }
+    .workgrid > div {
+        /* background-color: #80CEFD; */
+        text-align: center;
+        padding: 20px 0;
+    }
+    button#filter-button {
+        position: absolute;
+        top: 300px;
+        float: left;
+        width: 30px;
+        height: 30px;
+    }
+    button#artlet-button {
+        width: 20px;
+    }
+    #filter-button:hover, #artlet-button:hover {
+        background-color: #496D84;
+    }
+    #h3-work {
+        position: absolute;
+        justify-content: center;
+        margin-left: 160px;
+        top: 760px;
+    }
+    #h3-work:hover {
+        color: #FD9799;
+    }
+}
