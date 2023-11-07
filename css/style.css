@@ -45,11 +45,12 @@ ul {
   }
   #name {
     font-family: 'Keep on Truckin', sans-serif;
-    color: #496D84;
-    font-size: 2em;
+    color: #C93C3C;
+    font-size: 2.5em;
     text-align: center;
     display: flex;
     justify-content: center;
+    letter-spacing: 2px;
   }
 .skills {
     display: flex;
@@ -66,7 +67,7 @@ ul {
     margin-right: 10px;
 }
 #fashion {
-    color: #C93C3C;
+    color: #496D84;
 }
 .apps {
     position: relative;
@@ -77,6 +78,7 @@ ul {
     text-align: center;
     left: 300px;
     font-size: 14px;
+    /* text-decoration: none; */
 }
 .email {
     position: absolute;
@@ -84,11 +86,12 @@ ul {
     top: 250px;
     left: 400px;
     font-size: 14px;
+    /* text-decoration: none; */
 }
 .resume  {
     position: absolute;
     text-align: center;
-    top: 140px;
+    top: 110px;
     left: 600px;
     font-size: 14px;
 }
@@ -118,8 +121,8 @@ button {
     width: 110px;
     background-color: #C93C3C;
     color: #fffde8;
-    top: 510px;
-    left: 625px;
+    top: 450px;
+    left: 633px;
     font-family: 'Montserrat', sans-serif;
 }
 button:hover {
